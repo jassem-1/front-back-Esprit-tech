@@ -1,0 +1,88 @@
+.member-card {
+  position: relative;
+
+    width: 220px;
+    background-color: #161616;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px 15px;
+    text-align: center;
+  }
+ 
+.remove-button {
+  position: absolute;
+  top: -20px;
+  right: -90px;
+  cursor: pointer;
+
+  
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 10px;
+  transition: all 0.3s; 
+}
+.remove-button:hover {
+  transform: scale(1.2); 
+}
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .rounded-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .name {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .tasks {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+  }
+  
+  .tasks h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .tasks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tasks li {
+    margin-bottom: 5px;
+  }
+  
+  .show-more-button {
+    background-color: #5a6673;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .show-more-button:hover {
+    background-color: #380e0e;
+  }
+  .no-tasks-text{
+    font-weight: 600;
+  }

@@ -1,0 +1,111 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(78, 77, 77);
+padding-top: 0%;
+padding-left: 10px;
+padding-right:20px;
+padding-bottom: 20px;
+border-radius: 15px;
+    margin: 10px;
+    width: 270px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-header {
+    background-color: #000000;
+    width: 113%;
+    margin-left: -4.2%;
+    padding:12px 17px;
+    color: white;
+    font-weight: bold;
+    border-radius:  15px 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .description-text{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 0%;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .project-name {
+    font-size: 20px;
+  }
+  
+  .project-description {
+    color: rgb(234, 223, 223);
+    margin-bottom: 0;
+    font-weight: 550;
+  }
+  
+  .dates {
+    color: rgb(255, 255, 255);
+    margin-bottom: -5%;
+    font-size: 15px;
+  }
+  
+  .tasks {
+    margin-top: 0px;
+  }
+  
+  .no-tasks-text {
+    position: relative;
+    cursor: pointer;
+    color: #bcb5b5;
+  }
+  
+  .tasks-header {
+    display: flex;
+  align-items: center;
+
+  }
+  .tasks-display-text {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+    position:relative;
+
+  }
+  .tasks-display-text:hover .add-task-text {
+    display: block; /* Display the text on hover */
+  }
+ 
+  .task-name  {
+    color: rgb(255, 249, 249);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .see-more-button {
+    margin-top: 9px;
+    color: rgb(192, 184, 184);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .see-more-button:hover {
+
+text-decoration: underline;
+}
+.add-task-text {
+    position: absolute;
+    top: -30px; /* Adjust the positioning as needed */
+    left: 0;
+    background-color: #fff; /* Background color of the text */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+    white-space:nowrap;
+    color: rgb(9, 8, 8);
+  }
+  
+  .no-tasks-text:hover .add-task-text {
+    display: block; /* Display the text on hover */
+  }

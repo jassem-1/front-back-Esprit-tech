@@ -1,0 +1,21 @@
+.dashboard-container {
+    margin: 20px;
+  }
+  
+
+  
+  .pie-chart-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(7, 7, 7, 0.553);
+    border-radius: 15px;
+  }
+  
+.tasks-pie-container {
+    margin-top: -3%;
+  }
+  .first-row {
+    flex-direction: row;
+align-items: center;  }
+
+
